@@ -4,11 +4,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 def main():
-    # Carregando os dados originais
-    data = pd.read_csv('/work/data.csv') 
+    data = pd.read_csv('data.csv')
+    modified_data = pd.read_csv('modified_data.csv')
 
-    # Carregando os dados após a EDA
-    modified_data = pd.read_csv('/work/modified_data.csv') 
 
     st.title("Dashboard de Visualização de Dados e Modelagem com Regressão Linear para a Geely Auto")
 
